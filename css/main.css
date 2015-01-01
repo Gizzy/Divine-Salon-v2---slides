@@ -1,0 +1,185 @@
+
+
+body {
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	font-family: "verdana", "arial", "Times new Roman";
+	font-size: 10pt;
+	color: #262626;
+	background: white;
+}
+
+#body {
+	width: 100%;
+	height: 100%;
+	margin: 0, 0, 0, 0;
+}
+
+/*
+ *  Header
+ *
+ */
+
+header {
+	width: 100%;
+	height: auto;
+}
+
+#banner {
+	width: 683px;
+	height: 145px;
+	background: url('../images/banner.png');
+	float: left;
+}
+
+#leftMenu {
+	width: auto;
+	height: 161px;
+	margin-right: 30px;
+	margin-top: 5px;
+	float: right;
+}
+
+.menu_item {
+	width: 132px;
+	height: 132px;
+	padding-right: 15px;
+	overflow: hidden;
+	cursor: pointer;
+	float: right;
+}
+
+#kudyknam {
+	background: url('../images/buttons/kudyknam_button.png') no-repeat;
+}
+
+#kudyknam:hover {
+	background-position-y: -132px;
+}
+
+#kontakty {
+	background: url('../images/buttons/kontakty_button.png') no-repeat;
+}
+
+#kontakty:hover {
+	background-position-y: -132px;
+}
+
+#recenze {
+	background: url('../images/buttons/recenze_button.png') no-repeat;
+}
+
+#recenze:hover {
+	background-position-y: -132px;
+}
+
+/*
+ *  Tlačítka
+ *
+ */
+
+.circle {
+	width: 380px;
+	height: 380px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#hairs {
+	background: url('../images/icons/glow/vlasy_icon.png') no-repeat;
+	background-position: 50px 50px;
+	opacity: 0;
+	left: -300px;
+}
+
+#hairs:hover {
+	background: url('../images/icons/mouseover/vlasy_icon_mouseover.png') no-repeat;
+	background-position: 0px 0px;
+	top: +3px;
+}
+
+#nails {
+	background: url('../images/icons/glow/nails_icon.png') no-repeat;
+	background-position: 50px 50px;
+	opacity: 0;
+	left: -300px;
+}
+
+#nails:hover {
+	background: url('../images/icons/mouseover/nails_icon_mouseover.png') no-repeat;
+	background-position: 5px 0px;
+	top: +2px;
+}
+
+#cosmetics {
+	background: url('../images/icons/glow/cosmetic_icon.png') no-repeat;
+	background-position: 50px 50px;
+	opacity: 0;
+	left: -300px;
+}
+
+#cosmetics:hover {
+	background: url('../images/icons/mouseover/cosmetic_icon_mouseover.png') no-repeat;
+	background-position: -1px 0px;
+	top: +5px;
+}
+
+#massages {
+	background: url('../images/icons/glow/massage_icon.png') no-repeat;
+	background-position: 50px 50px;
+	opacity: 0;
+	left: -300px;
+}
+
+#massages:hover {
+	background: url('../images/icons/mouseover/massage_icon_mouseover.png') no-repeat;
+	background-position: -1px 0px;
+	top: +4px;
+}
+
+/*
+ * Footer
+ *
+ */
+
+footer {
+	width: 100%;
+	height: auto;
+	color: #4f4f4f;
+	text-align: center;
+	bottom:0px;
+	position: fixed;
+	opacity: 0;
+	z-index: -1;
+	float: left;
+}
+
+footer a {
+	color: #262626;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #262626;
+	text-decoration: underline;
+}
+
+#siteNav {
+	margin-bottom: 10px;
+}
+
+#copyright {
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

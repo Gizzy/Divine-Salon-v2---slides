@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../css"
+      name = "css">
+      <FileRef
+         location = "group:hairs.css">
+      </FileRef>
+      <FileRef
+         location = "group:main.css">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../fonts"
+      name = "fonts">
+      <FileRef
+         location = "group:BLACKJAR.TTF">
+      </FileRef>
+      <FileRef
+         location = "group:VarianteInitials.otf">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:../images"
+      name = "images">
+      <FileRef
+         location = "group:background.png">
+      </FileRef>
+      <FileRef
+         location = "group:banner.png">
+      </FileRef>
+      <Group
+         location = "group:buttons"
+         name = "buttons">
+         <FileRef
+            location = "group:kontakty_button.png">
+         </FileRef>
+         <FileRef
+            location = "group:kudyknam_button.png">
+         </FileRef>
+         <FileRef
+            location = "group:recenze_button.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:icons"
+         name = "icons">
+         <Group
+            location = "group:glow"
+            name = "glow">
+            <FileRef
+               location = "group:cosmetic_icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:massage_icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:nails_icon.png">
+            </FileRef>
+            <FileRef
+               location = "group:vlasy_icon.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:mouseover"
+            name = "mouseover">
+            <FileRef
+               location = "group:cosmetic_icon_mouseover.png">
+            </FileRef>
+            <FileRef
+               location = "group:massage_icon_mouseover.png">
+            </FileRef>
+            <FileRef
+               location = "group:nails_icon_mouseover.png">
+            </FileRef>
+            <FileRef
+               location = "group:vlasy_icon_mouseover.png">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:../index.html">
+   </FileRef>
+   <Group
+      location = "group:../js"
+      name = "js">
+      <FileRef
+         location = "group:jquery-1.9.1.js">
+      </FileRef>
+      <FileRef
+         location = "group:mainpage_script.js">
+      </FileRef>
+      <FileRef
+         location = "group:scrool_bottom.js">
+      </FileRef>
+   </Group>
+</Workspace>

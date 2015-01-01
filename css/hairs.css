@@ -1,0 +1,39 @@
+@font-face {
+    font-family: BlackJack;
+	src: url('../fonts/BLACKJAR.TTF');
+}
+
+#separator_line {
+	width: 100%;
+	height: 10px;
+	float: left;
+	background: #3458df;
+}
+
+#title_block {
+	font-family: BlackJack;
+	font-size: 30pt;
+	width: 250px;
+	text-align: center;
+	height: 75px;
+	margin-top: 20px;
+	padding-top: 25px;
+	float: left;
+	background: #3458df;
+	color: white;
+	font-weight: lighter;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+#text_area {
+	width: auto;
+	height: auto;
+	padding: 30px 150px 0px 150px;
+	margin-bottom: 50px;
+	float: left;
+}
